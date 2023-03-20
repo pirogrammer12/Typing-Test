@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cascadia Code', 'cascadia code', monospace;
+}
+
+body{
+    background: rgb(25, 23, 23);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+button{
+    padding: 6px;
+    margin: 20px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+    transition: opacity 100ms ease-in-out;
+}
+.text{
+    margin: 20px 200px;
+    font-size: 25px;
+    opacity: 0.8;
+}
+textarea{
+    padding: 10px;
+    font-size: larger;
+    background: transparent;
+    border: none;
+    color: white;
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
